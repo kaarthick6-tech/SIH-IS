@@ -1,0 +1,22 @@
+# Secrets - never commit real credentials
+.env
+
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Editor / OS noise
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.venv/
+__pycache__/
+*.pyc
+.env
+.venv/
+__pycache__/
+*.pyc
