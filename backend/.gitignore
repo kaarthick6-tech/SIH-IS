@@ -12,6 +12,16 @@ __pycache__/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Local uvicorn output (recreated every time the server starts)
+server.out.log
+server.err.log
+
+# Test artifacts
+test_tender.pdf
+pdf_result.json
+text_result.json
+q.json
 .env
 .venv/
 __pycache__/

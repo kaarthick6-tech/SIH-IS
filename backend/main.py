@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-app = FastAPI(title="IS Recommendation Engine")
+app = FastAPI(title="StandardsCopilot")
 
 app.add_middleware(
     CORSMiddleware,

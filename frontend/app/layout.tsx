@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "IS Recommendation Engine",
+  title: "StandardsCopilot",
   description:
-    "Match Indian Standards (IS) to procurement requirements using semantic search and LLM reranking.",
+    "AI-powered Indian Standards recommendation engine - match BIS standards to procurement requirements using semantic search and LLM reranking.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

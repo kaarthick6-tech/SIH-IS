@@ -53,7 +53,9 @@ def init_db():
     conn.commit()
     cur.close()
     conn.close()
-    print("✅ Database initialized with HNSW index and unique constraints.")
+    # Plain ASCII - the Windows console defaults to cp1252 and will raise
+# UnicodeEncodeError on a check mark in the success message.
+print("OK: database initialized with HNSW index and unique constraints.")
 
 if __name__ == "__main__":
     init_db()

@@ -21,7 +21,8 @@ import {
   type Confidence,
 } from "@/lib/api";
 
-const EXAMPLE_QUERY = "Steel reinforcement bars, Fe500D grade, coastal construction";
+const EXAMPLE_QUERY =
+  "High strength deformed steel bars, Fe500D grade, for coastal bridge construction";
 
 type InputMode = "text" | "file";
 
@@ -133,10 +134,10 @@ export default function Home() {
           </span>
           <div>
             <h1 className="text-lg font-semibold tracking-tight text-slate-900">
-              IS Recommendation Engine
+              StandardsCopilot
             </h1>
             <p className="text-xs text-slate-500">
-              Indian Standards matching for procurement requirements
+              AI-powered Indian Standards matching for procurement requirements
             </p>
           </div>
         </div>
